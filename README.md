@@ -10,7 +10,7 @@ A simple implementation of [Linus Torvalds' doubly linked lists](https://github.
 ```
 In the main directory of your project:
 git clone https://github.com/rmicolon/ft_list.git
-Make -C ft_list
+make -C ft_list
 (For gcc and clang) Then compile with the following options `-L./ft_list/ -llst`
 ```
 

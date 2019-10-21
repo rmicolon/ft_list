@@ -17,7 +17,7 @@
 ** point to each other
 */
 
-static inline void	ft__list_del(t_list_head *next, t_list_head *prev)
+inline void	ft__list_del(t_list_head *next, t_list_head *prev)
 {
 	prev->next = next;
 	next->prev = prev;
@@ -27,7 +27,7 @@ static inline void	ft__list_del(t_list_head *next, t_list_head *prev)
 ** ft__list_del_entry - Delete entry from list
 */
 
-static inline void	ft__list_del_entry(t_list_head *entry)
+inline void	ft__list_del_entry(t_list_head *entry)
 {
 	ft__list_del(entry->next, entry->prev);
 }
